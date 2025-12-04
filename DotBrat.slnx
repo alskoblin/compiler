@@ -1,7 +1,9 @@
 <Solution>
-  <Folder Name="/Backend/" />
   <Folder Name="/Benchmarks/" />
-  <Folder Name="/Frontend/">
+  <Folder Name="/Common/" />
+  <Folder Name="/Compiler/" />
+  <Folder Name="/Compiler/Backend/" />
+  <Folder Name="/Compiler/Frontend/">
     <Project Path="src/frontend/Lexer/Lexer.csproj" />
     <Project Path="src/frontend/Parser/Parser.csproj" />
   </Folder>
