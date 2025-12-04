@@ -1,10 +1,14 @@
 <Solution>
-  <Folder Name="/Benchmarks/" />
-  <Folder Name="/Common/" />
+  <Folder Name="/Common/">
+    <File Path="Directory.Build.Props" />
+    <File Path="Directory.Packages.Props" />
+  </Folder>
   <Folder Name="/Compiler/" />
   <Folder Name="/Compiler/Backend/" />
   <Folder Name="/Compiler/Frontend/">
     <Project Path="src/frontend/Lexer/Lexer.csproj" />
     <Project Path="src/frontend/Parser/Parser.csproj" />
   </Folder>
+  <Folder Name="/Tests/" />
+  <Folder Name="/Tests/Benchmarks/" />
 </Solution>
