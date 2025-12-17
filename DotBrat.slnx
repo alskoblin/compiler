@@ -9,6 +9,10 @@
     <Project Path="src/frontend/Lexer/Lexer.csproj" />
     <Project Path="src/frontend/Parser/Parser.csproj" />
   </Folder>
+  <Folder Name="/Compiler/Utility/" />
   <Folder Name="/Tests/" />
   <Folder Name="/Tests/Benchmarks/" />
+  <Folder Name="/Tests/Playground/">
+    <Project Path="tests/LexerPlayground/LexerPlayground.csproj" />
+  </Folder>
 </Solution>

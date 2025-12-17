@@ -2,14 +2,12 @@
 
 public enum TokenType
 {
-    String,
-    ShortInteger,   // 2 bytes
-    Integer,        // 4 bytes
-    BigInteger,     // 8 bytes
-    Float,
-    Boolean,
-    Char,
-
+    Type,
+    NumberValue,
+    StringValue,
+    CharValue,
+    BooleanValue,
+    
     Identifier,
 
     // ===== Keywords =====
@@ -23,10 +21,7 @@ public enum TokenType
     Return,
     True,
     False,
-    Null,
-    Const,
     Function,
-    Class,
     New,
 
     // ===== Operators =====
@@ -78,6 +73,7 @@ public enum TokenType
     LeftBracket,    // [
     RightBracket,   // ]
 
+    Whitespace,     // 
     Semicolon,      // ;
     Colon,          // :
     Comma,          // ,
