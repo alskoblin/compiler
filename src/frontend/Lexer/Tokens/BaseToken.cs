@@ -1,13 +1,16 @@
 ﻿namespace Lexer.Tokens;
 
-public abstract class BaseToken
+public class BaseToken
 {
     private readonly TokenType _type;
-    private readonly byte[] _value;
+    private readonly string _value;
 
-    protected BaseToken(TokenType type, byte[] value)
+    public BaseToken(TokenType type, string value)
     {
         _type = type;
         _value = value;
     }
+    
+    public TokenType Type => _type;
+    public string Value => _value;
 }
